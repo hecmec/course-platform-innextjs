@@ -7,7 +7,7 @@ export async function GET(request: Request) {
   const user = await currentUser()
 
   if (user == null) return new Response("User not found", { status: 500 })
-  if (user.fullName == null) {
+  if (user.username == null) {
     return new Response("User name missing", { status: 500 })
   }
   if (user.primaryEmailAddress?.emailAddress == null) {
@@ -16,7 +16,7 @@ export async function GET(request: Request) {
 
   const dbUser = await insertUser({
     clerkUserId: user.id,
-    name: user.fullName,
+    name: user.username,
     email: user.primaryEmailAddress.emailAddress,
     imageUrl: user.imageUrl,
     role: user.publicMetadata.role ?? "user",

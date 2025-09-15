@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@arcjet/next": "^1.0.0-beta.1",
-    "@clerk/nextjs": "^6.9.10",
+    "@clerk/nextjs": "^6.31.10",
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/sortable": "^10.0.0",
     "@hookform/resolvers": "^3.10.0",
@@ -34,7 +34,7 @@
     "cmdk": "^1.0.0",
     "drizzle-orm": "^0.38.3",
     "lucide-react": "^0.471.1",
-    "next": "^15.2.0-canary.12",
+    "next": "^15.6.0-canary.1",
     "pg": "^8.13.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

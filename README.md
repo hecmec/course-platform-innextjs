@@ -1,3 +1,41 @@
+# My Comments
+
+## Clerk
+
+- connect via hm@gm.com OAuth
+https://dashboard.clerk.com/apps/app_32Vq6N33NJzKv5p3ggY5Ly9GKlF/instances/ins_32Vq6N37ABoDW0aOHiunYjvYtum
+
+## Postgres 
+
+### stop service on my box
+
+    sudo service postgresql stop
+
+restart it later:
+
+    sudo systemctl start postgresql
+
+start pg on container:
+
+    docker-compose up
+
+## Drizzle
+
+- generate migration:
+
+    npm run db:generate
+
+- apply migration:
+
+    npm run db:migrate
+
+- open drizzle studio:
+
+    npm run db:studio
+
+
+# Original Stuff
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

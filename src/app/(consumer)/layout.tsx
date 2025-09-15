@@ -26,7 +26,7 @@ function Navbar() {
         >
           Web Dev Simplified
         </Link>
-        <Suspense>
+        <Suspense fallback={<div className='size-8 self-center bg-muted animate-pulse rounded-full' />}>
           <SignedIn>
             <AdminLink />
             <Link

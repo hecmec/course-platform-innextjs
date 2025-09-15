@@ -13,6 +13,7 @@ export default {
   	container: {
   		center: true,
   		padding: '2rem',
+		// max width is 1500px
   		screens: {
   			sm: '1500px'
   		}
