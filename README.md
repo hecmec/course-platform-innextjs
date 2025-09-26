@@ -1,5 +1,7 @@
 # My Comments
 
+- Clerk sucks, so we will use most of the lessons and courses and all this from here an add it to another project with custom login without  clerk
+
 ## Clerk
 
 - connect via hm@gm.com OAuth
